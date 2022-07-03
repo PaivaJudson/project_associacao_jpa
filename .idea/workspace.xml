@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="045a01af-de0f-42d1-99a3-613bb6be44f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/judson/project_associacao/model/Local.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/judson/project_associacao/model/Palestra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/judson/project_associacao/model/Palestrante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/project/Testes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="045a01af-de0f-42d1-99a3-613bb6be44f6" name="Changes" comment="criação das classes...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judson/project_associacao/model/Local.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judson/project_associacao/model/Local.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judson/project_associacao/model/Palestra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judson/project_associacao/model/Palestra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/judson/project_associacao/model/Palestrante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/judson/project_associacao/model/Palestrante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/project/EntityManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/project/EntityManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/project/Testes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/judsonpaiva/project/Testes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,22 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Testes.testar">
+    <configuration name="Testes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project_associacao_jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.judsonpaiva.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.judsonpaiva.project" />
+      <option name="MAIN_CLASS_NAME" value="com.judsonpaiva.project.Testes" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testes.testar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project_associacao_jpa" />
       <extension name="coverage">
@@ -81,6 +91,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Testes.testar" />
+        <item itemvalue="JUnit.Testes" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +104,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656872140513</updated>
     </task>
+    <task id="LOCAL-00001" summary="criação das classes...">
+      <created>1656874641367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656874641367</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,5 +124,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="criação das classes..." />
+    <option name="LAST_COMMIT_MESSAGE" value="criação das classes..." />
   </component>
 </project>
